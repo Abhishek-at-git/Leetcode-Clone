@@ -1,0 +1,19 @@
+import React from 'react'
+
+// const AuthLayout = () => {
+//   return (
+//     <div>AuthLayout</div>
+//   )
+// }
+
+// export default AuthLayoutimport React from 'react'
+
+const AuthLayout = ({children}:{children:React.ReactNode}) => {
+  return (
+    <div className='flex flex-col items-center justify-center h-screen'>
+        {children}
+    </div>
+  )
+}
+
+export default AuthLayout
